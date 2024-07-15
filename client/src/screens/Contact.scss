@@ -1,0 +1,36 @@
+.contact-container {
+  .contact-options {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 44px;
+    h2 {
+      color: var(--color-tertary);
+
+      span {
+        color: var(--color-secondary);
+      }
+    }
+  }
+  .social-contact {
+    flex: 1 300px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .form-contact {
+    flex: 1 300px !important;
+    // border: 1px solid black;
+    form {
+      width: 100%;
+      input,
+      textarea {
+        width: 100% !important;
+      }
+      .buttonContainer {
+        width: 100% !important;
+      }
+    }
+  }
+}
