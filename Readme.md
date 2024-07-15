@@ -28,4 +28,4 @@ CodeFuez is a full stack web app
  3. Start the backend server `npx nodemon server`
 
 ## View 👓
-![App screenshot](./public/codeFuez-capture.PNG)
+![App screenshot](./client/public/codeFuez-capture.PNG)
