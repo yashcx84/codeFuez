@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 
   const userAuthentication = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/auth/user", {
+      const response = await fetch("https://codefuez-server.onrender.com/api/auth/user", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -47,7 +47,7 @@ export const AuthProvider = ({ children }) => {
   // services get from backend
   const getServices = async (req, res) => {
     try {
-      const response = await fetch("http://localhost:4000/api/data/service", {
+      const response = await fetch("https://codefuez-server.onrender.com/api/data/service", {
         method: "GET",
       });
 
