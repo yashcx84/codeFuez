@@ -44,7 +44,7 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:4000/api/form/contact", {
+    const response = await fetch("https://codefuez-server.onrender.com/api/form/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
