@@ -9,7 +9,7 @@ const serviceRoute = require("./router/service-router");
 const errorMiddleware = require("./middlewares/error-middleware");
 
 const corsOptions = {
-  origin: "https://codefuez-client.onrender.com/",
+  origin: "https://codefuez-client.onrender.com",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
